@@ -51,46 +51,8 @@ public class SignInPage {
 	public void clickLoginButton(){
 		loginButton.click();
 	}
-
-
 	public String validateSignInPageTitle() {
 		return driver.getTitle();
 	}
-
-//	public void clickNewUserRegistration() {
-//		this.newUserRegistration.click();
-//	}
-//
-//	public String validateNewUserRegistrationPageTitle() {
-//		return driver.getTitle();
-//	}
-//	public void validateNewUserRegistrationPageHedaer() {
-//		//how to make a header method
-//	}
-
-//	public void chooseApplication() {
-//		dropdown = new Select(chooseYourApplication); // how to avoid this line
-//		dropdown.selectByVisibleText("COB: Coordination of Benefits");
-//	}
-
-	//
-	// public HomePage login(String un, String pwd){
-	// username.sendKeys(un);
-	// password.sendKeys(pwd);
-	// //loginBtn.click();
-	// JavascriptExecutor js = (JavascriptExecutor)driver;
-	// js.executeScript("arguments[0].click();", loginBtn);
-	//
-	// return new HomePage();
-	// }
-
-//	public void selectCheckbox1() {
-//		this.checkbox1.isSelected();
-//	}
-//
-//	public void clickNext1Button() {
-//		next1.click();
-//	}
-
 
 }

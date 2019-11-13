@@ -24,7 +24,7 @@ public class HomePage {
 	public WebElement header;
 	
 	@FindBy(how = How.CLASS_NAME, using ="hm-icon nav-sprite") //this is another way to write
-    public static WebElement hamburger;
+        public static WebElement hamburger;
 
 	@FindBy(css = ".nav-sprite nav-logo-base")
 	public WebElement amazonLogo;
@@ -117,53 +117,4 @@ public class HomePage {
 		return new SellPage(driver);
 	}
 	
-	
-
-//	public void verifyUserNameTest(){
-//		testUtil.switchToFrame();
-//		AssertJUnit.assertTrue(signInPage.verifyCorrectUserName());
-//	}
-	
-//	public ContactsPage navigateToContactsPage(){
-//	WebDriverWait wait = new WebDriverWait(driver, 20);
-//	wait.until(ExpectedConditions.visibilityOf(contactsTab));
-//	contactsTab.click();
-//	TestUtil.shortWait();
-//	contactsLink.click();
-//	
-//	return new ContactsPage(driver);
-//	
-//}	
-	
-	
-	
-    
-//	public static final String HOME_PAGE_TITLE = "StarWars.com | The Official Star Wars Website";
-//
-//    public String getHomePageTitle(){
-//        WebDriverWait wait = new WebDriverWait(driver, 20);
-//        wait.until(ExpectedConditions.titleContains(HomePage.HOME_PAGE_TITLE));
-//        return driver.getTitle();
-//    }
-//    public VideoPage navigateToVideoPage(){
-//        WebDriverWait wait = new WebDriverWait(driver, 20);
-//        wait.until(ExpectedConditions.visibilityOf(videoTab));
-//        videoTab.click();
-//        return new VideoPage();
-//        
-//        
-        
-//	public void navigateToContacts() {
-//		contactsLink.click();
-//	}
-//
-//	public void navigateToOpportunities() {
-//		opportunitiesLInk.click();
-//	}
-//
-//	public WebElement getAdministrator() {
-//		waitHelper.WaitForElement(administrator, Constants.getExplicitwait());
-//		return administrator;
-//	}
-
 }

@@ -15,33 +15,5 @@ public class HomePageStepDefinitions extends TestBase{
 	HomePage homePage = new HomePage(driver);
 	WaitHelper waitHelper = new WaitHelper(driver);
 	
-//	@Then("^I sould see application homepage$")
-//	public void i_sould_see_application_homepage() throws Throwable {
-//		homePage.getAdministrator().isDisplayed();
-//	}
-//
-//	@Then("^I sould see administrator text message on home Page$")
-//	public void i_sould_see_administrator_text_message_on_home_Page() throws Throwable {
-//		homePage.administrator.isDisplayed();
-//	}
-//	
-//	@Given("^I am on home page of application$")
-//	public void i_am_on_home_page_of_application() throws Throwable {
-//		homePage.administrator.isDisplayed();
-//		
-//	}
-//
-//	@Then("^I should see home page$")
-//	public void i_should_see_home_page() throws Throwable {
-//		homePage.administrator.isDisplayed();
-//	}
-//	
-//
-//	@When("^I click on leads link$")
-//	public void i_click_on_leads_link() throws Throwable {
-//	//	homePage.navigateToLeads();
-//	}
-//
-//
-//
+
 }

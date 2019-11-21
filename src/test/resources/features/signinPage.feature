@@ -1,8 +1,7 @@
 @SignIn
 Feature: Sign In 
-	As an User
-  I want to Sign In with my credentails to Amazon application 
-  In order to get access of the application features
+	 As an User I want to Sign In with my credentails to Amazon application 
+         In order to get access of the application features
   
 #This is imperative BDD, line by line description
 
